@@ -85,4 +85,4 @@ Want to port Kape to another app? PRs are welcome. The [`colors.json`](./colors.
 
 ## 📄 License
 
-MIT © [gabiuz]
+MIT © gabiuz
