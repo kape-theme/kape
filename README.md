@@ -50,6 +50,7 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 
 | App | Status |
 |---|---|
+| [Neovim](https://github.com/gabiuz/kape.nvim) | ✅ Available |
 | [Ghostty](./ports/ghostty/) | ✅ Available |
 | [Kitty](./ports/kitty/) | ✅ Available |
 
