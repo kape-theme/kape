@@ -30,3 +30,7 @@ palette = 12=#9aaae0
 palette = 13=#c48ef0
 palette = 14=#90d4ca
 palette = 15=#d4be98
+
+# Extended Accent Colors (non-ANSI, use for custom roles)
+# orange        = #c87941
+# bright_orange = #d4975a
