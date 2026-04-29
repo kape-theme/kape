@@ -74,6 +74,12 @@
       "rgb": { "r": 194, "g": 194, "b": 194 },
       "hsl": { "h": 0, "s": 0, "l": 76 },
       "description": "Punctuation, operators, plain text"
+    },
+    "orange": {
+      "hex": "#c87941",
+      "rgb": { "r": 200, "g": 121, "b": 65 },
+      "hsl": { "h": 28, "s": 57, "l": 52 },
+      "description": "Decorators, attributes, special variables"
     }
   },
 
@@ -97,7 +103,13 @@
       "blue":    { "hex": "#9aaae0", "rgb": { "r": 154, "g": 170, "b": 224 }, "hsl": { "h": 227, "s": 52, "l": 74 } },
       "magenta": { "hex": "#c48ef0", "rgb": { "r": 196, "g": 142, "b": 240 }, "hsl": { "h": 280, "s": 77, "l": 75 } },
       "cyan":    { "hex": "#90d4ca", "rgb": { "r": 144, "g": 212, "b": 202 }, "hsl": { "h": 173, "s": 42, "l": 70 } },
-      "white":   { "hex": "#d4be98", "rgb": { "r": 212, "g": 190, "b": 152 }, "hsl": { "h": 38,  "s": 41, "l": 71 } }
+      "white":   { "hex": "#d4be98", "rgb": { "r": 212, "g": 190, "b": 152 }, "hsl": { "h": 38,  "s": 41, "l": 71 } },
+      "bright_orange": {
+        "hex": "#d4975a",
+        "rgb": { "r": 212, "g": 151, "b": 90 },
+        "hsl": { "h": 28, "s": 57, "l": 59 },
+        "description": "Bright variant of orange"
+      }
     }
   }
 }

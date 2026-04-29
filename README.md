@@ -28,6 +28,7 @@ Kape is a dark theme designed for developers who spend long hours in their edito
 | Violet | `#b072e6` | ![](https://placehold.co/24x24/b072e6/b072e6) |
 | Cyan | `#72c4b8` | ![](https://placehold.co/24x24/72c4b8/72c4b8) |
 | White | `#c2c2c2` | ![](https://placehold.co/24x24/c2c2c2/c2c2c2) |
+| Orange | `#c87941` | ![](https://placehold.co/24x24/c87941/c87941) |
 
 ### Bright Variants
 
@@ -41,6 +42,7 @@ Kape is a dark theme designed for developers who spend long hours in their edito
 | Bright Violet | `#c48ef0` | ![](https://placehold.co/24x24/c48ef0/c48ef0) |
 | Bright Cyan | `#90d4ca` | ![](https://placehold.co/24x24/90d4ca/90d4ca) |
 | Bright White | `#d4be98` | ![](https://placehold.co/24x24/d4be98/d4be98) |
+| Bright Orange | `#d4975a` | ![](https://placehold.co/24x24/d4975a/d4975a) |
 
 The full palette with RGB and HSL values is available in [`colors.json`](./colors.json).
 
