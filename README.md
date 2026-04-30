@@ -67,6 +67,7 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 | [Neovim](https://github.com/gabiuz/kape-nvim) | ✅ Available |
 | [Ghostty](./ports/ghostty/) | ✅ Available |
 | [Kitty](./ports/kitty/) | ✅ Available |
+| [Btop](./ports/btop/) | ✅ Available |
 
 ---
 
@@ -89,6 +90,11 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
    include kape.conf
    ```
 3. Reload with `ctrl+shift+F5`
+
+### Btop
+
+1. Copy `ports/btop/kape.theme` to `~/.config/btop/themes/`
+2. Open `btop`, press `ESC`, select `OPTIONS`, and change the `color_theme` to `kape`.
 
 ---
 
