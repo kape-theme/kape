@@ -12,6 +12,12 @@
       "hsl": { "h": 0, "s": 4, "l": 9 },
       "description": "Main background"
     },
+    "surface": {
+      "hex": "#1e1b1b",
+      "rgb": { "r": 30, "g": 27, "b": 27 },
+      "hsl": { "h": 0, "s": 5, "l": 11 },
+      "description": "Raised surface background for sidebars, tabs, and inlay hints"
+    },
     "foreground": {
       "hex": "#d4be98",
       "rgb": { "r": 212, "g": 190, "b": 152 },
@@ -109,6 +115,68 @@
         "rgb": { "r": 212, "g": 151, "b": 90 },
         "hsl": { "h": 28, "s": 57, "l": 59 },
         "description": "Bright variant of orange"
+      }
+    }
+  },
+
+  "ui": {
+    "description": "Editor UI support colors used by richer ports such as Neovim",
+    "selection_background": {
+      "hex": "#2e2a2a",
+      "rgb": { "r": 46, "g": 42, "b": 42 },
+      "hsl": { "h": 0, "s": 5, "l": 17 },
+      "description": "Selection and word-highlight background"
+    },
+    "visual": {
+      "red": {
+        "hex": "#3c1f1e",
+        "rgb": { "r": 60, "g": 31, "b": 30 },
+        "hsl": { "h": 2, "s": 33, "l": 18 },
+        "description": "Tinted diagnostic or visual background for errors"
+      },
+      "yellow": {
+        "hex": "#3a2e1a",
+        "rgb": { "r": 58, "g": 46, "b": 26 },
+        "hsl": { "h": 38, "s": 38, "l": 16 },
+        "description": "Tinted diagnostic or visual background for warnings"
+      },
+      "green": {
+        "hex": "#2a3120",
+        "rgb": { "r": 42, "g": 49, "b": 32 },
+        "hsl": { "h": 85, "s": 21, "l": 16 },
+        "description": "Tinted diagnostic or visual background for hints and additions"
+      },
+      "blue": {
+        "hex": "#1e2b30",
+        "rgb": { "r": 30, "g": 43, "b": 48 },
+        "hsl": { "h": 197, "s": 23, "l": 15 },
+        "description": "Tinted diagnostic or visual background for info and modifications"
+      },
+      "violet": {
+        "hex": "#2e1e30",
+        "rgb": { "r": 46, "g": 30, "b": 48 },
+        "hsl": { "h": 293, "s": 23, "l": 15 },
+        "description": "Tinted visual background for violet accents"
+      }
+    },
+    "diff": {
+      "red": {
+        "hex": "#3c1f1e",
+        "rgb": { "r": 60, "g": 31, "b": 30 },
+        "hsl": { "h": 2, "s": 33, "l": 18 },
+        "description": "Removed-line background"
+      },
+      "green": {
+        "hex": "#2a3120",
+        "rgb": { "r": 42, "g": 49, "b": 32 },
+        "hsl": { "h": 85, "s": 21, "l": 16 },
+        "description": "Inserted-line background"
+      },
+      "blue": {
+        "hex": "#1e2b30",
+        "rgb": { "r": 30, "g": 43, "b": 48 },
+        "hsl": { "h": 197, "s": 23, "l": 15 },
+        "description": "Modified-line background"
       }
     }
   }

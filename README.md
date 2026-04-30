@@ -13,6 +13,7 @@ Kape is a dark theme designed for developers who spend long hours in their edito
 | Role | Hex | Preview |
 |---|---|---|
 | Background | `#181616` | ![](https://placehold.co/24x24/181616/181616) |
+| Surface | `#1e1b1b` | ![](https://placehold.co/24x24/1e1b1b/1e1b1b) |
 | Foreground | `#d4be98` | ![](https://placehold.co/24x24/d4be98/d4be98) |
 | Second Text | `#bdae8b` | ![](https://placehold.co/24x24/bdae8b/bdae8b) |
 | Third Text | `#928374` | ![](https://placehold.co/24x24/928374/928374) |
@@ -44,6 +45,17 @@ Kape is a dark theme designed for developers who spend long hours in their edito
 | Bright White | `#d4be98` | ![](https://placehold.co/24x24/d4be98/d4be98) |
 | Bright Orange | `#d4975a` | ![](https://placehold.co/24x24/d4975a/d4975a) |
 
+### UI Support
+
+| Role | Hex | Preview |
+|---|---|---|
+| Selection Background | `#2e2a2a` | ![](https://placehold.co/24x24/2e2a2a/2e2a2a) |
+| Visual Red | `#3c1f1e` | ![](https://placehold.co/24x24/3c1f1e/3c1f1e) |
+| Visual Yellow | `#3a2e1a` | ![](https://placehold.co/24x24/3a2e1a/3a2e1a) |
+| Visual Green | `#2a3120` | ![](https://placehold.co/24x24/2a3120/2a3120) |
+| Visual Blue | `#1e2b30` | ![](https://placehold.co/24x24/1e2b30/1e2b30) |
+| Visual Violet | `#2e1e30` | ![](https://placehold.co/24x24/2e1e30/2e1e30) |
+
 The full palette with RGB and HSL values is available in [`colors.json`](./colors.json).
 
 ---
@@ -62,7 +74,7 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 
 ### Ghostty
 
-1. Copy `ports/ghostty/themes/kape.conf` to `~/.config/ghostty/themes/`
+1. Copy `ports/ghostty/kape` to `~/.config/ghostty/themes/kape`
 2. Add to your `~/.config/ghostty/config`:
    ```
    theme = kape
