@@ -26,8 +26,8 @@ Kape is a dark theme designed for developers who spend long hours in their edito
 | Green | `#b4c76e` | ![](https://placehold.co/24x24/b4c76e/b4c76e) |
 | Yellow | `#e7bb5c` | ![](https://placehold.co/24x24/e7bb5c/e7bb5c) |
 | Blue | `#7b8fd4` | ![](https://placehold.co/24x24/7b8fd4/7b8fd4) |
-| Violet | `#b072e6` | ![](https://placehold.co/24x24/b072e6/b072e6) |
-| Cyan | `#72c4b8` | ![](https://placehold.co/24x24/72c4b8/72c4b8) |
+| Purple | `#b06880` | ![](https://placehold.co/24x24/b06880/b06880) |
+| Aqua | `#689d8a` | ![](https://placehold.co/24x24/689d8a/689d8a) |
 | White | `#c2c2c2` | ![](https://placehold.co/24x24/c2c2c2/c2c2c2) |
 | Orange | `#c87941` | ![](https://placehold.co/24x24/c87941/c87941) |
 
@@ -40,8 +40,8 @@ Kape is a dark theme designed for developers who spend long hours in their edito
 | Bright Green | `#cad98a` | ![](https://placehold.co/24x24/cad98a/cad98a) |
 | Bright Yellow | `#f0cc7a` | ![](https://placehold.co/24x24/f0cc7a/f0cc7a) |
 | Bright Blue | `#9aaae0` | ![](https://placehold.co/24x24/9aaae0/9aaae0) |
-| Bright Violet | `#c48ef0` | ![](https://placehold.co/24x24/c48ef0/c48ef0) |
-| Bright Cyan | `#90d4ca` | ![](https://placehold.co/24x24/90d4ca/90d4ca) |
+| Bright Purple | `#c8889a` | ![](https://placehold.co/24x24/c8889a/c8889a) |
+| Bright Aqua | `#89b8a8` | ![](https://placehold.co/24x24/89b8a8/89b8a8) |
 | Bright White | `#d4be98` | ![](https://placehold.co/24x24/d4be98/d4be98) |
 | Bright Orange | `#d4975a` | ![](https://placehold.co/24x24/d4975a/d4975a) |
 
@@ -54,7 +54,7 @@ Kape is a dark theme designed for developers who spend long hours in their edito
 | Visual Yellow | `#3a2e1a` | ![](https://placehold.co/24x24/3a2e1a/3a2e1a) |
 | Visual Green | `#2a3120` | ![](https://placehold.co/24x24/2a3120/2a3120) |
 | Visual Blue | `#1e2b30` | ![](https://placehold.co/24x24/1e2b30/1e2b30) |
-| Visual Violet | `#2e1e30` | ![](https://placehold.co/24x24/2e1e30/2e1e30) |
+| Visual Purple | `#2e1e30` | ![](https://placehold.co/24x24/2e1e30/2e1e30) |
 
 The full palette with RGB and HSL values is available in [`colors.json`](./colors.json).
 

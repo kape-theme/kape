@@ -17,8 +17,8 @@ palette = 1=#b53535
 palette = 2=#b4c76e
 palette = 3=#e7bb5c
 palette = 4=#7b8fd4
-palette = 5=#b072e6
-palette = 6=#72c4b8
+palette = 5=#b06880
+palette = 6=#689d8a
 palette = 7=#c2c2c2
 
 # Bright ANSI Colors
@@ -27,8 +27,8 @@ palette = 9=#c94040
 palette = 10=#cad98a
 palette = 11=#f0cc7a
 palette = 12=#9aaae0
-palette = 13=#c48ef0
-palette = 14=#90d4ca
+palette = 13=#c8889a
+palette = 14=#89b8a8
 palette = 15=#d4be98
 
 # Extended Accent Colors (non-ANSI, use for custom roles)
