@@ -68,6 +68,7 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 | [Ghostty](./ports/ghostty/) | ✅ Available |
 | [Kitty](./ports/kitty/) | ✅ Available |
 | [Btop](./ports/btop/) | ✅ Available |
+| [Spicetify](./ports/spicetify/) | ✅ Available |
 
 ---
 
@@ -95,6 +96,16 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 
 1. Copy `ports/btop/kape.theme` to `~/.config/btop/themes/`
 2. Open `btop`, press `ESC`, select `OPTIONS`, and change the `color_theme` to `kape`.
+
+### Spicetify
+
+1. Copy `ports/spicetify/` to `~/.config/spicetify/Themes/Kape/`
+2. Run:
+   ```
+   spicetify config current_theme Kape
+   spicetify config color_scheme Base
+   spicetify apply
+   ```
 
 ---
 

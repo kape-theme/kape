@@ -1,0 +1,22 @@
+/* Kape - Spicetify theme */
+
+:root {
+  --kape-selection: var(--spice-selected-row);
+  --kape-hover: #1e1b1b;
+}
+
+body {
+  background-color: var(--spice-main);
+  color: var(--spice-text);
+}
+
+::selection {
+  background-color: var(--kape-selection);
+  color: var(--spice-text);
+}
+
+.main-trackList-row:hover,
+.main-entityHeader-topRow:hover,
+.main-card-card:hover {
+  background-color: var(--kape-hover);
+}
