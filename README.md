@@ -69,6 +69,8 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 | [Kitty](./ports/kitty/) | ✅ Available |
 | [Btop](./ports/btop/) | ✅ Available |
 | [Spicetify](./ports/spicetify/) | ✅ Available |
+| [Zed](./ports/zed/) | ✅ Available |
+| [Foot](./ports/foot/) | ✅ Available |
 
 ---
 
