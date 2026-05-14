@@ -113,7 +113,14 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 
 1. `mkdir -p ~/.config/zed/themes`
 2. Add to your `cp ports/zed/kape.json ~/.config/zed/themes/`
-3. Reload Zed
+3. Open Zed
+4. Open your settings.json and add this:
+ ```
+  "theme": {
+    "dark": "Kape",
+  },
+
+```
 
 ### foot
 
