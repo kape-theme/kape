@@ -121,7 +121,7 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 2. Copy `cp ports/foot/kape-dark.ini` to `~/.config/foot/themes/`
 3. Add to your `~/.config/foot/foot.ini`:
       ```
-      include=~/.config/foot/themes/kape-dark.ini
+      include ~/.config/foot/themes/kape-dark.ini
    ```
 4. Reload foot
 ---
