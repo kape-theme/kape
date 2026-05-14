@@ -107,6 +107,20 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
    spicetify apply
    ```
 
+### Zed
+
+1. `mkdir -p ~/.config/zed/themes`
+2. Add to your `cp ports/zed/kape.json ~/.config/zed/themes/`
+3. Reload Zed
+
+### foot
+
+1. `mkdir -p ~/.config/foot/themes`
+2. Add to your `cp ports/foot/theme.ini ~/.config/foot/themes/kape-dark.ini`:
+      ```
+      include=~/.config/foot/themes/kape-dark.ini
+   ```
+3. Reload Zed
 ---
 
 ## 🤝 Contributing
