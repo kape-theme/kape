@@ -116,10 +116,9 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 3. Open Zed
 4. Open your settings.json and add this:
  ```
-  "theme": {
+ "theme": {
     "dark": "kape",
   },
-
 ```
 
 ### foot
