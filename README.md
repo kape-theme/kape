@@ -117,7 +117,7 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 4. Open your settings.json and add this:
  ```
   "theme": {
-    "dark": "Kape",
+    "dark": "kape",
   },
 
 ```
