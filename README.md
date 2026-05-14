@@ -121,7 +121,7 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
       ```
       include=~/.config/foot/themes/kape-dark.ini
    ```
-4. Reload Zed
+4. Reload foot
 ---
 
 ## 🤝 Contributing
