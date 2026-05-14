@@ -69,6 +69,8 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 | [Kitty](./ports/kitty/) | ✅ Available |
 | [Btop](./ports/btop/) | ✅ Available |
 | [Spicetify](./ports/spicetify/) | ✅ Available |
+| [Zed](./ports/zed/) | ✅ Available |
+| [Foot](./ports/foot/) | ✅ Available |
 
 ---
 
@@ -107,6 +109,28 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
    spicetify apply
    ```
 
+### Zed
+
+1. `mkdir -p ~/.config/zed/themes`
+2. Add to your `cp ports/zed/kape.json ~/.config/zed/themes/`
+3. Open Zed
+4. Open your settings.json and add this:
+ ```
+ "theme": {
+    "dark": "kape",
+  },
+```
+
+### foot
+
+1. `mkdir -p ~/.config/foot/themes`
+2. Copy `cp ports/foot/kape-dark.ini` to `~/.config/foot/themes/`
+3. Add to your `~/.config/foot/foot.ini`:
+   
+      ```
+      include ~/.config/foot/themes/kape-dark.ini
+   ```
+5. Reload foot
 ---
 
 ## 🤝 Contributing
