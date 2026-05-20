@@ -1,6 +1,8 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "Kape",
+  "author": "Gabiuz",
+  "contributor": "meaayu",
   "themes": [
     {
       "name": "Kape",
@@ -15,46 +17,37 @@
           "#689d8aff",
           "#c87941ff"
         ],
-
         "background": "#181616ff",
         "surface.background": "#1e1b1bff",
         "elevated_surface.background": "#1e1b1bff",
-
         "border": "#2e2a2aff",
         "border.variant": "#252222ff",
         "border.focused": "#7b8fd4ff",
         "border.selected": "#e7bb5cff",
         "border.transparent": "#00000000",
         "border.disabled": "#252222ff",
-
         "element.background": "#1e1b1bff",
         "element.hover": "#2e2a2aff",
         "element.active": "#3a3636ff",
         "element.selected": "#2e2a2aff",
         "element.disabled": "#1e1b1bff",
-
         "ghost_element.background": "#00000000",
         "ghost_element.hover": "#2e2a2a88",
         "ghost_element.active": "#2e2a2acc",
         "ghost_element.selected": "#2e2a2a88",
         "ghost_element.disabled": "#00000000",
-
         "drop_target.background": "#e7bb5c33",
-
         "text": "#d4be98ff",
         "text.muted": "#928374ff",
         "text.placeholder": "#928374aa",
         "text.disabled": "#928374aa",
         "text.accent": "#e7bb5cff",
-
         "icon": "#d4be98ff",
         "icon.muted": "#928374ff",
         "icon.disabled": "#928374aa",
         "icon.placeholder": "#928374aa",
         "icon.accent": "#e7bb5cff",
-
         "link_text.hover": "#7b8fd4ff",
-
         "status_bar.background": "#1e1b1bff",
         "title_bar.background": "#181616ff",
         "title_bar.inactive_background": "#181616ff",
@@ -62,20 +55,16 @@
         "tab_bar.background": "#1e1b1bff",
         "tab.active_background": "#181616ff",
         "tab.inactive_background": "#1e1b1bff",
-
         "search.match_background": "#e7bb5c33",
-
         "panel.background": "#1e1b1bff",
         "panel.focused_border": "#7b8fd4ff",
         "pane.focused_border": "#7b8fd4ff",
         "pane_group.border": "#2e2a2aff",
-
         "scrollbar.thumb.background": "#2e2a2acc",
         "scrollbar.thumb.hover_background": "#3a3636cc",
         "scrollbar.thumb.border": "#2e2a2aff",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#1e1b1bff",
-
         "editor.background": "#181616ff",
         "editor.foreground": "#d4be98ff",
         "editor.gutter.background": "#181616ff",
@@ -92,7 +81,6 @@
         "editor.document_highlight.read_background": "#2e2a2a88",
         "editor.document_highlight.write_background": "#3a2e1a88",
         "editor.document_highlight.bracket_background": "#2e2a2a88",
-
         "terminal.background": "#181616ff",
         "terminal.foreground": "#d4be98ff",
         "terminal.bright_foreground": "#d4be98ff",
@@ -121,7 +109,6 @@
         "terminal.ansi.dim_magenta": "#b06880cc",
         "terminal.ansi.dim_cyan": "#689d8acc",
         "terminal.ansi.dim_white": "#c2c2c2cc",
-
         "created": "#b4c76eff",
         "created.background": "#2a3120ff",
         "created.border": "#b4c76e55",
@@ -143,7 +130,6 @@
         "renamed": "#689d8aff",
         "renamed.background": "#1e2b30ff",
         "renamed.border": "#689d8a55",
-
         "success": "#b4c76eff",
         "success.background": "#2a3120ff",
         "success.border": "#b4c76e55",
@@ -156,19 +142,15 @@
         "info": "#7b8fd4ff",
         "info.background": "#1e2b30ff",
         "info.border": "#7b8fd455",
-
         "hint": "#928374ff",
         "hint.background": "#181616ff",
         "hint.border": "#2e2a2aff",
-
         "predictive": "#928374ff",
         "predictive.background": "#181616ff",
         "predictive.border": "#2e2a2aff",
-
         "unreachable": "#928374ff",
         "unreachable.background": "#181616ff",
         "unreachable.border": "#2e2a2aff",
-
         "players": [
           {
             "cursor": "#e7bb5cff",
@@ -211,7 +193,6 @@
             "selection": "#c2c2c233"
           }
         ],
-
         "syntax": {
           "attribute": {
             "color": "#c87941ff",
