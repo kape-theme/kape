@@ -117,7 +117,7 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 4. Open your settings.json and add this:
  ```
  "theme": {
-    "dark": "kape",
+    "dark": "Kape",
   },
 ```
 
@@ -133,7 +133,14 @@ The full palette with RGB and HSL values is available in [`colors.json`](./color
 5. Reload foot
 ---
 
+## Gtk theme
+
+1. `mkdir -p ~/.themes`
+2. `mv kape/ports/Kape-Dark-gtk ~/.themes/`
+
+
 ## 🤝 Contributing
+
 
 Want to port Kape to another app? PRs are welcome. The [`colors.json`](./colors.json) file is the single source of truth — use it as the reference for any new port.
 

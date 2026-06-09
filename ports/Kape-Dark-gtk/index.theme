@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Kape-Dark
+Comment=An Flat Gtk+ theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Kape-Dark
+MetacityTheme=Kape-Dark
+ButtonLayout=close,minimize,maximize:menu
