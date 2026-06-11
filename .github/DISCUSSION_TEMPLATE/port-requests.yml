@@ -1,0 +1,51 @@
+title: "[Port Request] <App Name>"
+labels: ["port-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new Kape port! Fill this out so we know how to approach theming the app.
+
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: What is the name of the application?
+      placeholder: e.g. Wezterm
+    validations:
+      required: true
+
+  - type: input
+    id: app-url
+    attributes:
+      label: App URL
+      description: Link to the app's official website or repository
+      placeholder: https://wezfurlong.org/wezterm/
+    validations:
+      required: true
+
+  - type: dropdown
+    id: will-you-make-it
+    attributes:
+      label: Are you willing to create this port?
+      options:
+        - "Yes, I'll make it"
+        - "No, I'm requesting someone else makes it"
+    validations:
+      required: true
+
+  - type: textarea
+    id: theming-method
+    attributes:
+      label: How can this app be themed?
+      description: Describe how the app supports custom themes (config file, CSS, plugin, etc.)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: guidelines
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I have read the [port creation guide](https://github.com/gabiuz/kape/blob/main/docs/port-creation.md)
+          required: true

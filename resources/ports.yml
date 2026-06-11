@@ -1,0 +1,76 @@
+# Kape Port Registry
+# This is the single source of truth for all Kape ports.
+# The README.md port list is auto-generated from this file.
+# Run `npm run generate` to regenerate.
+
+collaborators:
+  gabiuz: &gabiuz
+    username: gabiuz
+
+# Organization: https://github.com/kape-theme
+# Naming convention: kape-theme/<appname> (no kape- prefix on repo names)
+
+ports:
+  nvim:
+    name: Neovim
+    categories: [text_editor]
+    platform: [linux, macos, windows]
+    url: https://github.com/kape-theme/nvim
+    current-maintainers:
+      - *gabiuz
+
+  zed:
+    name: Zed
+    categories: [text_editor]
+    platform: [linux, macos]
+    url: https://github.com/kape-theme/zed
+    current-maintainers:
+      - *gabiuz
+
+  ghostty:
+    name: Ghostty
+    categories: [terminal_emulator]
+    platform: [linux, macos]
+    url: https://github.com/kape-theme/ghostty
+    current-maintainers:
+      - *gabiuz
+
+  kitty:
+    name: Kitty
+    categories: [terminal_emulator]
+    platform: [linux, macos]
+    url: https://github.com/kape-theme/kitty
+    current-maintainers:
+      - *gabiuz
+
+  foot:
+    name: Foot
+    categories: [terminal_emulator]
+    platform: [linux]
+    url: https://github.com/kape-theme/foot
+    current-maintainers:
+      - *gabiuz
+
+  btop:
+    name: Btop
+    categories: [system_tool]
+    platform: [linux, macos]
+    url: https://github.com/kape-theme/btop
+    current-maintainers:
+      - *gabiuz
+
+  spicetify:
+    name: Spicetify
+    categories: [music]
+    platform: [linux, macos, windows]
+    url: https://github.com/kape-theme/spicetify
+    current-maintainers:
+      - *gabiuz
+
+  gtk:
+    name: GTK
+    categories: [desktop]
+    platform: [linux]
+    url: https://github.com/kape-theme/gtk
+    current-maintainers:
+      - *gabiuz

@@ -1,0 +1,50 @@
+name: Generate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "resources/ports.yml"
+      - "resources/categories.yml"
+      - "resources/generate/**"
+  pull_request:
+    branches: [main]
+    paths:
+      - "resources/ports.yml"
+      - "resources/categories.yml"
+      - "resources/generate/**"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run generation pipeline
+        run: pnpm generate
+
+      - name: Commit generated files
+        if: github.event_name == 'push'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate README port list [skip ci]"
+          file_pattern: "README.md"

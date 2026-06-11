@@ -1,12 +1,19 @@
+<div align="center">
+
 # ☕ Kape
 
-> *Kape* (Filipino for coffee) — a warm dark color scheme rooted in coffee, earth, and amber.
+*a dark theme rooted in coffee, earth, and amber*
 
-Kape is a dark theme designed for developers who spend long hours in their editor. Every color was chosen with intention — warm enough to feel cozy, balanced enough to work all day.
+[![MIT License](https://img.shields.io/badge/license-MIT-c87941?style=flat-square)](./LICENSE)
+[![Ports](https://img.shields.io/badge/ports-8-e7bb5c?style=flat-square)](./resources/ports.yml)
+
+</div>
 
 ---
 
 ## 🎨 Palette
+
+The full palette with RGB and HSL values is in [`colors.json`](./colors.json), validated by [`resources/colors.schema.json`](./resources/colors.schema.json). See [`docs/specs.md`](./docs/specs.md) for the detailed specification.
 
 ### Base
 
@@ -31,121 +38,76 @@ Kape is a dark theme designed for developers who spend long hours in their edito
 | White | `#c2c2c2` | ![](https://placehold.co/24x24/c2c2c2/c2c2c2) |
 | Orange | `#c87941` | ![](https://placehold.co/24x24/c87941/c87941) |
 
-### Bright Variants
-
-| Color | Hex | Preview |
-|---|---|---|
-| Bright Black | `#2e2a2a` | ![](https://placehold.co/24x24/2e2a2a/2e2a2a) |
-| Bright Red | `#c94040` | ![](https://placehold.co/24x24/c94040/c94040) |
-| Bright Green | `#cad98a` | ![](https://placehold.co/24x24/cad98a/cad98a) |
-| Bright Yellow | `#f0cc7a` | ![](https://placehold.co/24x24/f0cc7a/f0cc7a) |
-| Bright Blue | `#9aaae0` | ![](https://placehold.co/24x24/9aaae0/9aaae0) |
-| Bright Purple | `#c8889a` | ![](https://placehold.co/24x24/c8889a/c8889a) |
-| Bright Aqua | `#89b8a8` | ![](https://placehold.co/24x24/89b8a8/89b8a8) |
-| Bright White | `#d4be98` | ![](https://placehold.co/24x24/d4be98/d4be98) |
-| Bright Orange | `#d4975a` | ![](https://placehold.co/24x24/d4975a/d4975a) |
-
-### UI Support
-
-| Role | Hex | Preview |
-|---|---|---|
-| Selection Background | `#2e2a2a` | ![](https://placehold.co/24x24/2e2a2a/2e2a2a) |
-| Visual Red | `#3c1f1e` | ![](https://placehold.co/24x24/3c1f1e/3c1f1e) |
-| Visual Yellow | `#3a2e1a` | ![](https://placehold.co/24x24/3a2e1a/3a2e1a) |
-| Visual Green | `#2a3120` | ![](https://placehold.co/24x24/2a3120/2a3120) |
-| Visual Blue | `#1e2b30` | ![](https://placehold.co/24x24/1e2b30/1e2b30) |
-| Visual Purple | `#2e1e30` | ![](https://placehold.co/24x24/2e1e30/2e1e30) |
-
-The full palette with RGB and HSL values is available in [`colors.json`](./colors.json).
-
 ---
 
 ## 🔌 Ports
 
-| App | Status |
-|---|---|
-| [Neovim](https://github.com/gabiuz/kape-nvim) | ✅ Available |
-| [Ghostty](./ports/ghostty/) | ✅ Available |
-| [Kitty](./ports/kitty/) | ✅ Available |
-| [Btop](./ports/btop/) | ✅ Available |
-| [Spicetify](./ports/spicetify/) | ✅ Available |
-| [Zed](./ports/zed/) | ✅ Available |
-| [Foot](./ports/foot/) | ✅ Available |
+<!-- AUTOGEN:PORTLIST START -->
+
+<details>
+<summary>📝 Text Editors</summary>
+
+| App | Repository | Platforms |
+|---|---|---|
+| **Neovim** | [kape-theme/nvim](https://github.com/kape-theme/nvim) | 🐧 🍎 🪟 |
+| **Zed** | [kape-theme/zed](https://github.com/kape-theme/zed) | 🐧 🍎 |
+
+</details>
+
+<details>
+<summary>🖥️ Terminal Emulators</summary>
+
+| App | Repository | Platforms |
+|---|---|---|
+| **Ghostty** | [kape-theme/ghostty](https://github.com/kape-theme/ghostty) | 🐧 🍎 |
+| **Kitty** | [kape-theme/kitty](https://github.com/kape-theme/kitty) | 🐧 🍎 |
+| **Foot** | [kape-theme/foot](https://github.com/kape-theme/foot) | 🐧 |
+
+</details>
+
+<details>
+<summary>⚙️ System Tools</summary>
+
+| App | Repository | Platforms |
+|---|---|---|
+| **Btop** | [kape-theme/btop](https://github.com/kape-theme/btop) | 🐧 🍎 |
+
+</details>
+
+<details>
+<summary>🎵 Music</summary>
+
+| App | Repository | Platforms |
+|---|---|---|
+| **Spicetify** | [kape-theme/spicetify](https://github.com/kape-theme/spicetify) | 🐧 🍎 🪟 |
+
+</details>
+
+<details>
+<summary>🖼️ Desktop</summary>
+
+| App | Repository | Platforms |
+|---|---|---|
+| **GTK** | [kape-theme/gtk](https://github.com/kape-theme/gtk) | 🐧 |
+
+</details>
+<!-- AUTOGEN:PORTLIST END -->
+
+> This list is auto-generated from [`resources/ports.yml`](./resources/ports.yml). To add a port, see the [port creation guide](./docs/port-creation.md).
 
 ---
-
-## 📦 Installation
-
-### Ghostty
-
-1. Copy `ports/ghostty/kape` to `~/.config/ghostty/themes/kape`
-2. Add to your `~/.config/ghostty/config`:
-   ```
-   theme = kape
-   ```
-3. Reload Ghostty
-
-### Kitty
-
-1. Copy `ports/kitty/kape.conf` to `~/.config/kitty/`
-2. Add to your `~/.config/kitty/kitty.conf`:
-   ```
-   include kape.conf
-   ```
-3. Reload with `ctrl+shift+F5`
-
-### Btop
-
-1. Copy `ports/btop/kape.theme` to `~/.config/btop/themes/`
-2. Open `btop`, press `ESC`, select `OPTIONS`, and change the `color_theme` to `kape`.
-
-### Spicetify
-
-1. Copy `ports/spicetify/` to `~/.config/spicetify/Themes/Kape/`
-2. Run:
-   ```
-   spicetify config current_theme Kape
-   spicetify config color_scheme Base
-   spicetify apply
-   ```
-
-### Zed
-
-1. `mkdir -p ~/.config/zed/themes`
-2. Add to your `cp ports/zed/kape.json ~/.config/zed/themes/`
-3. Open Zed
-4. Open your settings.json and add this:
- ```
- "theme": {
-    "dark": "Kape",
-  },
-```
-
-### foot
-
-1. `mkdir -p ~/.config/foot/themes`
-2. Copy `cp ports/foot/kape-dark.ini` to `~/.config/foot/themes/`
-3. Add to your `~/.config/foot/foot.ini`:
-   
-      ```
-      include ~/.config/foot/themes/kape-dark.ini
-   ```
-5. Reload foot
----
-
-## Gtk theme
-
-1. `mkdir -p ~/.themes`
-2. `mv kape/ports/Kape-Dark-gtk ~/.themes/`
-
 
 ## 🤝 Contributing
 
+Want to port Kape to another app? PRs are welcome.
 
-Want to port Kape to another app? PRs are welcome. The [`colors.json`](./colors.json) file is the single source of truth — use it as the reference for any new port.
+- [`colors.json`](./colors.json) is the **single source of truth** — use it for all color values
+- [`docs/style-guide.md`](./docs/style-guide.md) — which color maps to which UI element
+- [`docs/port-creation.md`](./docs/port-creation.md) — full step-by-step guide
+- [`CONTRIBUTING.md`](./CONTRIBUTING.md) — branch naming, commit style, and submission process
 
 ---
 
 ## 📄 License
 
-MIT © gabiuz
+MIT © [gabiuz](https://github.com/gabiuz)

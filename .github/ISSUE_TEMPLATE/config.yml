@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔌 Request a new port
+    url: https://github.com/gabiuz/kape/discussions/new?category=port-requests
+    about: Request a new Kape port via GitHub Discussions

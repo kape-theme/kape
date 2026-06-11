@@ -1,0 +1,20 @@
+{
+  "name": "kape",
+  "version": "1.0.0",
+  "description": "A dark color scheme rooted in coffee, earth, and amber.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "tsx resources/generate/main.ts",
+    "validate": "node --input-type=module <<< \"import Ajv from 'ajv'; import schema from './resources/colors.schema.json' assert { type: 'json' }; import palette from './colors.json' assert { type: 'json' }; const ajv = new Ajv(); const valid = ajv.validate(schema, palette); if (!valid) { console.error(ajv.errors); process.exit(1); } console.log('✅ colors.json is valid');\""
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+    "ajv": "^8.17.1",
+    "js-yaml": "^4.1.0",
+    "tsx": "^4.19.3"
+  }
+}

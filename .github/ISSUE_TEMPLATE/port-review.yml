@@ -1,0 +1,64 @@
+name: 🔌 Port Review
+description: Submit a completed Kape port for review and inclusion in the registry
+labels: ["port-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for creating a Kape port! Fill out this form to get it added to the official registry.
+
+  - type: input
+    id: repo-url
+    attributes:
+      label: Repository URL
+      description: Link to the port's GitHub repository
+      placeholder: https://github.com/kape-theme/alacritty
+    validations:
+      required: true
+
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: The name of the application being themed
+      placeholder: Alacritty
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category best fits this port?
+      options:
+        - text_editor
+        - terminal_emulator
+        - system_tool
+        - music
+        - desktop
+        - browser
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Paste screenshots showing the theme applied to the app
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      options:
+        - label: All colors are sourced from `colors.json`
+          required: true
+        - label: The repository is named `<appname>` (lowercase) under the `kape-theme` org
+          required: true
+        - label: The repository has a README with installation instructions
+          required: true
+        - label: The repository uses the MIT license
+          required: true

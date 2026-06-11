@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kape Color Palette",
+  "description": "Schema for the Kape color palette definition (colors.json)",
+  "type": "object",
+  "required": ["name", "description", "version", "author", "license", "base", "accents", "ansi", "ui"],
+  "additionalProperties": false,
+  "properties": {
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "author": { "type": "string" },
+    "license": { "type": "string" },
+    "base": {
+      "type": "object",
+      "required": ["background", "surface", "foreground", "second_text", "third_text"],
+      "additionalProperties": { "$ref": "#/$defs/colorEntry" },
+      "properties": {
+        "background": { "$ref": "#/$defs/colorEntry" },
+        "surface": { "$ref": "#/$defs/colorEntry" },
+        "foreground": { "$ref": "#/$defs/colorEntry" },
+        "second_text": { "$ref": "#/$defs/colorEntry" },
+        "third_text": { "$ref": "#/$defs/colorEntry" }
+      }
+    },
+    "accents": {
+      "type": "object",
+      "required": ["red", "green", "yellow", "blue", "purple", "aqua", "white", "orange"],
+      "additionalProperties": { "$ref": "#/$defs/colorEntry" },
+      "properties": {
+        "red":    { "$ref": "#/$defs/colorEntry" },
+        "green":  { "$ref": "#/$defs/colorEntry" },
+        "yellow": { "$ref": "#/$defs/colorEntry" },
+        "blue":   { "$ref": "#/$defs/colorEntry" },
+        "purple": { "$ref": "#/$defs/colorEntry" },
+        "aqua":   { "$ref": "#/$defs/colorEntry" },
+        "white":  { "$ref": "#/$defs/colorEntry" },
+        "orange": { "$ref": "#/$defs/colorEntry" }
+      }
+    },
+    "ansi": {
+      "type": "object",
+      "required": ["normal", "bright"],
+      "properties": {
+        "description": { "type": "string" },
+        "normal": { "$ref": "#/$defs/ansiSet" },
+        "bright": { "$ref": "#/$defs/ansiSet" }
+      }
+    },
+    "ui": {
+      "type": "object",
+      "required": ["selection_background", "visual"],
+      "properties": {
+        "description": { "type": "string" },
+        "selection_background": { "$ref": "#/$defs/colorEntry" },
+        "visual": { "type": "object" },
+        "diff": { "type": "object" }
+      }
+    }
+  },
+  "$defs": {
+    "rgb": {
+      "type": "object",
+      "required": ["r", "g", "b"],
+      "properties": {
+        "r": { "type": "integer", "minimum": 0, "maximum": 255 },
+        "g": { "type": "integer", "minimum": 0, "maximum": 255 },
+        "b": { "type": "integer", "minimum": 0, "maximum": 255 }
+      }
+    },
+    "hsl": {
+      "type": "object",
+      "required": ["h", "s", "l"],
+      "properties": {
+        "h": { "type": "number", "minimum": 0, "maximum": 360 },
+        "s": { "type": "number", "minimum": 0, "maximum": 100 },
+        "l": { "type": "number", "minimum": 0, "maximum": 100 }
+      }
+    },
+    "colorEntry": {
+      "type": "object",
+      "required": ["hex", "rgb", "hsl"],
+      "properties": {
+        "hex": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "rgb": { "$ref": "#/$defs/rgb" },
+        "hsl": { "$ref": "#/$defs/hsl" },
+        "description": { "type": "string" }
+      }
+    },
+    "ansiSet": {
+      "type": "object",
+      "properties": {
+        "black":         { "$ref": "#/$defs/colorEntry" },
+        "red":           { "$ref": "#/$defs/colorEntry" },
+        "green":         { "$ref": "#/$defs/colorEntry" },
+        "yellow":        { "$ref": "#/$defs/colorEntry" },
+        "blue":          { "$ref": "#/$defs/colorEntry" },
+        "magenta":       { "$ref": "#/$defs/colorEntry" },
+        "cyan":          { "$ref": "#/$defs/colorEntry" },
+        "white":         { "$ref": "#/$defs/colorEntry" },
+        "bright_orange": { "$ref": "#/$defs/colorEntry" }
+      }
+    }
+  }
+}

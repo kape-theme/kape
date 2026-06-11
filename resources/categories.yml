@@ -1,0 +1,32 @@
+# Kape Port Categories
+# Each category has a key (used in ports.yml), a display name, description, and emoji.
+
+- key: text_editor
+  name: Text Editors
+  description: Ports for code and text editors
+  emoji: "📝"
+
+- key: terminal_emulator
+  name: Terminal Emulators
+  description: Ports for terminal emulator applications
+  emoji: "🖥️"
+
+- key: system_tool
+  name: System Tools
+  description: Ports for system monitoring and management utilities
+  emoji: "⚙️"
+
+- key: music
+  name: Music
+  description: Ports for music players and streaming applications
+  emoji: "🎵"
+
+- key: desktop
+  name: Desktop
+  description: Ports for desktop environments, GTK themes, and window managers
+  emoji: "🖼️"
+
+- key: browser
+  name: Browsers
+  description: Ports for web browsers and browser extensions
+  emoji: "🌐"
